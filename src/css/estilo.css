@@ -5,20 +5,57 @@
    margin: 0%;
 }
 body{
+    margin: 0;
+    padding: 0;
 
 }
 header{
     background-color:#602540;
+  
+    display: flex;
+  align-items: center; /* centraliza verticalmente */
+  padding-left: 20px; /* opcional, só para não colar na esquerda */
+  height: 90px;      
+  width: 100%; 
+    
+
     
 }
 .cabeçalho{
     color:#FF9FC5;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
+#cabeçalho.h1{
+     margin-top:50px;
+}
+
 .navegador{
    display: flex;
    gap: 20px;
+   text-align: right;
+   position: absolute;
+   margin-top: -20px;
+   right: 60px;
+   
 }
 #login{
     text-align: right;
+}
+nav a {
+    text-decoration: none;
+   color:#FF9FC5;
+   list-style-type: none;
+
+}
+#login{
+    border-radius: #D9D9D9;
+}
+#bannerimg{
+   width: 100%;     /* largura que você quer */
+  height: 550px;  
+  object-fit: cover; 
+ 
+  margin-left: 10px;
+  margin-top: 10px;
 }
