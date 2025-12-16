@@ -37,19 +37,27 @@ header{
    position: absolute;
    margin-top: -20px;
    right: 60px;
+   list-style: none;
+   font-size: 17px;
    
 }
-#login{
-    text-align: right;
-}
+
 nav a {
     text-decoration: none;
    color:#FF9FC5;
-   list-style-type: none;
+   list-style: none;
 
 }
 #login{
-    border-radius: #D9D9D9;
+    font-size: 17px;
+    list-style: none;
+    background: #e0e0e0;
+  padding: 10px 20px;
+  border-radius: 30px;
+ 
+  margin-bottom: 20px;
+  text-align: right;
+  color:#602540;
 }
 #bannerimg{
    width: 100%;     /* largura que você quer */
@@ -59,3 +67,60 @@ nav a {
   margin-left: 10px;
   margin-top: 10px;
 }
+
+    
+
+section{
+    padding: 20px;
+   
+  
+
+ }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#imagem1{
+     width: 50%;
+     border-radius: 40%;
+
+}
+.cima{
+    display: flex;
+  align-items: center;   /* alinha verticalmente */
+  gap: 20px;     
+}
+
+#imagem2{
+     width: 60%;
+     border-radius: 300px;
+
+}
+.baixo{
+     display: flex;
+  align-items: center;   /* alinha verticalmente */
+  gap: 20px;    
+
+}
+.textos{
+    text-align: justify;
+    max-width: 400px;
+   border-bottom: #FF9FC5;
+    
+
+}
+
