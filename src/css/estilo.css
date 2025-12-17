@@ -14,9 +14,11 @@ header{
   
     display: flex;
   align-items: center; /* centraliza verticalmente */
+ 
   padding-left: 20px; /* opcional, só para não colar na esquerda */
   height: 90px;      
-  width: 100%; 
+  width: 100%;
+  padding-bottom:50px ;
     
 
     
@@ -28,10 +30,11 @@ header{
     
    
 }
-#cabeçalho.h1{
+#herois{
      margin-top:50px;
      font-family:'Poppins';
      font-weight: 100;
+     font-size: 30px;
 }
 
 .navegador{
@@ -58,10 +61,10 @@ nav a {
     font-size: 1,2rem;
     list-style: none;
     background: #e0e0e0;
-  padding: 10px 20px;
-  border-radius: 30px;
+  padding: 10px 27px;
+  border-radius: 20px;
  
-  margin-bottom: 20px;
+  margin-top: 400px;
   text-align: right;
   color:#602540;
 }
@@ -172,7 +175,7 @@ nav a {
    margin-top: -30px;
     right: 20px;
    list-style: none;
-   font-size: 15px;
+   font-size: 14px;
    font-family: 'Poppins';
    font-weight: 500;
     
