@@ -23,11 +23,15 @@ header{
 }
 .cabeçalho{
     color:#FF9FC5;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Poppins';
+    font-weight: 20;
+    
    
 }
 #cabeçalho.h1{
      margin-top:50px;
+     font-family:'Poppins';
+     font-weight: lighter;
 }
 
 .navegador{
@@ -39,6 +43,8 @@ header{
    right: 60px;
    list-style: none;
    font-size: 17px;
+   font-family: 'Poppins';
+   font-weight: 500;
    
 }
 
@@ -49,7 +55,7 @@ nav a {
 
 }
 #login{
-    font-size: 17px;
+    font-size: 1,2rem;
     list-style: none;
     background: #e0e0e0;
   padding: 10px 20px;
@@ -60,80 +66,90 @@ nav a {
   color:#602540;
 }
 #bannerimg{
-   width: 100%;     /* largura que você quer */
+  width: 100%;     /* largura que você quer */
   height: 550px;  
   object-fit: cover; 
- 
-  margin-left: 10px;
   margin-top: 10px;
+  margin-left: 10px;
+  
 }
 
     
 
-section{
-    padding: 20px;
+
    
   
 
- }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 #imagem1{
-     width: 30%;
+    max-width: 30%;
      border-radius: 40%;
 
 }
 .cima{
     display: flex;
-   align-items: center;  /* alinha verticalmente */
-  gap: 500px;     
-  margin-left: 60px;
+   align-items: center;  
+   gap: 330px; 
+    margin-left: 100px; 
+    margin-top: 100px;
 }
 
+
+
 #imagem2{
-     width: 70%;
+    max-width: 46%;
      border-radius: 300px;
       
 }
+
+
 .baixo{
      display: flex;
      align-items: center;   
-     gap: 500px; 
-     margin-left: 60px; 
+     gap: 200px; 
+     margin-left: 100px; 
+     margin-top: 60px;
     
      
 
 }
 .textos{
-    text-align: justify;
-    max-width: 400px;
-   
-
-
-   background-color: #FF9FC5;
+  text-align: justify;
+  max-width: 480px;
+  background-color: #FF9FC5;
   padding: 16px;
   border-radius: 20px;
   width: fit-content;
-  font-weight: bold;
-    
-
+  font-weight: 800;
+  font-size: 1,7rem;
+  font-family:'Montserrat';
 }
-/* .main{
-  gap:20px;
-} */
+.titulo{
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-family: 'Poppins';
+}
+.footer-container{
+  background-color: #96305A;
+  margin-top: 200px;
+  height: 170px;
+   align-items: center;
+   padding-top: 30px;
+  
+}
+.imagens-footer{
+  align-items: center;
+  gap:30px;
+   display: flex;
+   margin: 0 auto;
+   justify-content: center;
+ margin-top: 20px;
+}
+.direitos-reservados{
+  color: #e0e0e0;
+  text-align: center;
+  margin-top: 45px;
+  font-family: 'Montserrat';
+}
