@@ -67,6 +67,7 @@ nav a {
   margin-top: 400px;
   text-align: right;
   color:#602540;
+  font-weight: 900;
 }
 #bannerimg{
   width: 100%;     /* largura que você quer */
@@ -159,6 +160,7 @@ nav a {
   text-align: center;
   margin-top: 45px;
   font-family: 'Montserrat';
+  font-weight: 800;
 }
 
 /* RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE */
@@ -238,25 +240,31 @@ nav a {
   border-radius: 20px;
   width: fit-content;
   font-weight: 800;
-  font-size: 8px;
+  font-size: 10px;
   font-family:'Montserrat';
 }
 .footer-container{
   
  margin-top: 120px;
    background-color: #8b2d5c;
-  padding: 15px 0 10px; /* controla a altura */
+  
   text-align: center;
+  
+ ;
     
 }
 .imagens-footer{
   align-items: center;
   gap:30px;
    display: flex;
- margin-top: 50px;
+ margin-top: 20px;
+ size: 20%;
+}
+.imagens-footer img{
+ width: 6%;
 }
 .direitos-reservados{
-  margin: 8px 0 0;
+  margin: 20px 2px 40px;
   font-size: 12px;
   color: #f2f2f2;
  
